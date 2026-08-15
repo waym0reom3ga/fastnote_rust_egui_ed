@@ -1,0 +1,11 @@
+test: binary_size
+  libs: none
+  notes: Self-contained. Only libc/libm/libgcc external. Statically links OpenGL renderer, font rasterizer, winit.
+
+test: peak_ram_profile
+  capable: yes
+  notes: Requires display.
+
+test: gui_tools
+  capable: yes
+  notes: egui via eframe. Immediate-mode GUI.
